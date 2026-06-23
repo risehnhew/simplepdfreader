@@ -10,6 +10,35 @@ These steps assume you have an active Apple Developer Program membership and acc
 4. Create a new app in App Store Connect using the same bundle identifier.
 5. Add the app name, category, age rating, support URL, privacy policy URL, screenshots, and metadata from `AppStore/APP_STORE_METADATA.md`.
 
+### Apple Developer Bundle ID Path
+
+1. Go to `https://developer.apple.com/account/resources/identifiers/list`.
+2. Click the add button.
+3. Select App IDs.
+4. Select App.
+5. Description: `SimplePDF Reader`.
+6. Bundle ID type: Explicit.
+7. Bundle ID: `com.weihe.simplepdfreader`.
+8. Do not enable extra capabilities for v1.
+9. Register.
+
+## 1.5 Publish Privacy and Support Pages
+
+Fast GitHub Pages path:
+
+1. Create a public GitHub repository named `simplepdfreader`.
+2. Push this local repository to GitHub.
+3. In GitHub, open Settings > Pages.
+4. Source: Deploy from a branch.
+5. Branch: `main`.
+6. Folder: `/docs`.
+7. Save.
+
+After GitHub Pages is live, use:
+
+- Privacy Policy URL: `https://<your-github-username>.github.io/simplepdfreader/privacy.html`
+- Support URL: `https://<your-github-username>.github.io/simplepdfreader/support.html`
+
 ## 2. Configure Signing
 
 Open `SimplePDFReader.xcodeproj` in Xcode and set:
