@@ -1,0 +1,88 @@
+# SimplePDF Reader App Store Metadata
+
+Use this as a starting point in App Store Connect. Replace every placeholder before submission.
+
+## App Information
+
+- Name: SimplePDF Reader
+- Subtitle: Local, private PDF reading
+- Bundle ID: `com.weihe.simplepdfreader`
+- Apple Developer Team: `Wei He` (`8777RK2R8M`)
+- SKU: `simplepdf-reader-ios`
+- Primary category: Productivity
+- Secondary category: Utilities
+- Content rights: The app does not contain, show, or access third-party media content.
+- Age rating notes: No unrestricted web access, no user-generated public content, no ads, no purchases, no gambling, no explicit content.
+
+## Description
+
+SimplePDF Reader is a clean, local-first PDF reader for iPhone and iPad.
+
+Import PDFs from the Files app, keep them in a private local library, resume from the last page you read, search inside documents, bookmark important pages, and share PDFs when needed.
+
+Your documents stay on your device. SimplePDF Reader does not require an account, does not upload your files, does not track you, and does not include ads or analytics.
+
+## Promotional Text
+
+A simple, private PDF reader for importing, reading, searching, bookmarking, and sharing PDFs on your device.
+
+## Keywords
+
+pdf,reader,document,files,bookmark,search,library,private,offline,productivity
+
+## Support URL
+
+Publish `docs/support.html`, then use the public URL here.
+
+Suggested GitHub Pages URL format: `https://<your-github-username>.github.io/simplepdfreader/support.html`
+
+## Privacy Policy URL
+
+Publish `docs/privacy.html`, then use the public URL here.
+
+Suggested GitHub Pages URL format: `https://<your-github-username>.github.io/simplepdfreader/privacy.html`
+
+## Marketing URL
+
+Optional: `REPLACE_WITH_MARKETING_URL`
+
+## Review Notes
+
+SimplePDF Reader is a local-first PDF reader. It does not require login, does not use network services, does not include ads, does not include analytics, and does not upload user documents.
+
+To test:
+
+1. Launch the app.
+2. Tap the import button in Library.
+3. Choose a PDF from the Files app.
+4. Open the PDF from the library.
+5. Test page navigation, search, bookmarks, sharing, and Settings.
+
+No demo account is required.
+
+## Privacy Nutrition Label Draft
+
+Use these answers only if the app remains as implemented in v1:
+
+- Data collected: None
+- Tracking: No
+- Third-party advertising: No
+- Analytics: No
+- Product personalization: No
+- Uploads user documents: No
+- Account creation: No
+- Network requests: No
+
+## Export Compliance Draft
+
+The app does not implement custom encryption and does not use network communication. Confirm final export-compliance answers in App Store Connect based on the exact release build and Apple’s current questionnaire.
+
+## What Must Be Final Before Submission
+
+- Register `com.weihe.simplepdfreader` in your Apple Developer account.
+- Xcode has a local wildcard provisioning profile for Team ID `8777RK2R8M`, but no app-specific bundle ID was found locally.
+- Replace the in-app support email with a mailbox you control.
+- Publish `docs/privacy.html` at a stable public URL.
+- Publish `docs/support.html` at a stable public URL.
+- Create required screenshots for App Store Connect.
+- Sign the archive with your Apple Developer team.
