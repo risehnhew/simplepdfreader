@@ -1,10 +1,10 @@
-# SimplePDF Reader App Store Metadata
+# SimpPDF Reader App Store Metadata
 
 Use this as a starting point in App Store Connect. Replace every placeholder before submission.
 
 ## App Information
 
-- Name: SimplePDF Reader
+- Name: SimpPDF Reader
 - Subtitle: Local, private PDF reading
 - Bundle ID: `com.weihe.simplepdfreader`
 - Apple Developer Team: `Wei He` (`8777RK2R8M`)
@@ -16,11 +16,11 @@ Use this as a starting point in App Store Connect. Replace every placeholder bef
 
 ## Description
 
-SimplePDF Reader is a clean, local-first PDF reader for iPhone and iPad.
+SimpPDF Reader is a clean, local-first PDF reader for iPhone and iPad.
 
 Import PDFs from the Files app, keep them in a private local library, resume from the last page you read, search inside documents, bookmark important pages, and share PDFs when needed.
 
-Your documents stay on your device. SimplePDF Reader does not require an account, does not upload your files, does not track you, and does not include ads or analytics.
+Your documents stay on your device. SimpPDF Reader does not require an account, does not upload your files, does not track you, and does not include ads or analytics.
 
 ## Promotional Text
 
@@ -44,7 +44,7 @@ Optional: `REPLACE_WITH_MARKETING_URL`
 
 ## Review Notes
 
-SimplePDF Reader is a local-first PDF reader. It does not require login, does not use network services, does not include ads, does not include analytics, and does not upload user documents.
+SimpPDF Reader is a local-first PDF reader. It does not require login, does not use network services, does not include ads, does not include analytics, and does not upload user documents.
 
 To test:
 

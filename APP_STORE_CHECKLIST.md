@@ -1,6 +1,6 @@
 # App Store Submission Checklist
 
-- App name: SimplePDF Reader
+- App name: SimpPDF Reader
 - Bundle identifier: `com.weihe.simplepdfreader`; Xcode has created the explicit App ID and App Store provisioning profile.
 - Apple Developer Team found locally: `Wei He` (`8777RK2R8M`).
 - Category: Productivity or Utilities

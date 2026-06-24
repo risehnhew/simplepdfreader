@@ -7,7 +7,7 @@
 	<key>CFBundleIdentifier</key>
 	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 	<key>CFBundleDisplayName</key>
-	<string>SimplePDF Reader</string>
+	<string>SimpPDF Reader</string>
 	<key>CFBundleDocumentTypes</key>
 	<array>
 		<dict>

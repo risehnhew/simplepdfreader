@@ -9,7 +9,7 @@ Xcode has already created the explicit Bundle ID/App ID and an App Store provisi
 Create a new app in App Store Connect using:
 
 - Platform: iOS
-- Name: `SimplePDF Reader`
+- Name: `SimpPDF Reader`
 - Primary language: English (U.S.)
 - Bundle ID: `com.weihe.simplepdfreader`
 - SKU: `simplepdf-reader-ios`
@@ -23,7 +23,7 @@ After the app record exists, add the category, age rating, support URL, privacy 
 2. Click the add button.
 3. Select App IDs.
 4. Select App.
-5. Description: `SimplePDF Reader`.
+5. Description: `SimpPDF Reader`.
 6. Bundle ID type: Explicit.
 7. Bundle ID: `com.weihe.simplepdfreader`.
 8. Do not enable extra capabilities for v1.

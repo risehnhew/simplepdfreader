@@ -13,7 +13,7 @@ The app should be simple, local-first, privacy-friendly, and stable. Do NOT add 
 
 ## 1. Product Goal
 
-Create a clean iOS PDF reader app called **SimplePDF Reader**.
+Create a clean iOS PDF reader app called **SimpPDF Reader**.
 
 The app should allow users to:
 
@@ -223,7 +223,7 @@ Requirements:
 * No collection of document contents
 * Add a simple in-app privacy statement:
 
-  * "SimplePDF Reader stores imported PDF files locally on your device. The app does not upload your documents, does not require an account, and does not track you."
+  * "SimpPDF Reader stores imported PDF files locally on your device. The app does not upload your documents, does not require an account, and does not track you."
 
 Create a `PRIVACY.md` file with a short privacy policy suitable for the App Store product page.
 
@@ -441,7 +441,7 @@ Include:
 
 Write a short product description:
 
-"SimplePDF Reader is a clean, private PDF reader for iPhone and iPad. Import PDF files from the Files app, read smoothly, search text, save your reading position, and bookmark important pages. Your documents stay on your device."
+"SimpPDF Reader is a clean, private PDF reader for iPhone and iPad. Import PDF files from the Files app, read smoothly, search text, save your reading position, and bookmark important pages. Your documents stay on your device."
 
 ### Keywords Draft
 

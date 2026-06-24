@@ -54,7 +54,7 @@ enum ScreenshotSeedService {
             UIRectFill(pageBounds)
 
             draw("Quarterly Reading Notes", in: CGRect(x: 72, y: 72, width: 468, height: 34), size: 24, weight: .bold, color: UIColor(red: 0.10, green: 0.37, blue: 0.48, alpha: 1.0))
-            draw("A sample document for reviewing local PDF reading, search, bookmarks, and page navigation in SimplePDF Reader.", in: CGRect(x: 72, y: 126, width: 468, height: 42), size: 11)
+            draw("A sample document for reviewing local PDF reading, search, bookmarks, and page navigation in SimpPDF Reader.", in: CGRect(x: 72, y: 126, width: 468, height: 42), size: 11)
             draw("Highlights", in: CGRect(x: 72, y: 186, width: 468, height: 24), size: 14, weight: .bold)
 
             let highlights = [

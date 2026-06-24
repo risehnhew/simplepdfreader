@@ -30,7 +30,7 @@ struct SettingsView: View {
                 }
 
                 Section("Privacy") {
-                    Text("SimplePDF Reader stores imported PDF files locally on your device. The app does not upload your documents, does not require an account, and does not track you.")
+                    Text("SimpPDF Reader stores imported PDF files locally on your device. The app does not upload your documents, does not require an account, and does not track you.")
                         .font(.subheadline)
                 }
 
