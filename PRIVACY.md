@@ -8,4 +8,4 @@ SimplePDF Reader does not require an account, does not upload your documents, do
 
 Deleting a PDF from the library removes the app's local copy and related local metadata. Resetting the local library removes all imported PDFs and local metadata from the app sandbox.
 
-For support, contact: support@example.com.
+For support, contact: Iam.wei.he@gmail.com.

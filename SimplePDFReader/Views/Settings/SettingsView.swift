@@ -35,7 +35,7 @@ struct SettingsView: View {
                 }
 
                 Section("Support") {
-                    LabeledContent("Support Email", value: "Set before release")
+                    LabeledContent("Support Email", value: "Iam.wei.he@gmail.com")
                     LabeledContent("Version", value: appVersion)
                 }
 

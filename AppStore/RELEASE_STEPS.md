@@ -36,8 +36,8 @@ Fast GitHub Pages path:
 
 After GitHub Pages is live, use:
 
-- Privacy Policy URL: `https://<your-github-username>.github.io/simplepdfreader/privacy.html`
-- Support URL: `https://<your-github-username>.github.io/simplepdfreader/support.html`
+- Privacy Policy URL: `https://risehnhew.github.io/simplepdfreader/privacy.html`
+- Support URL: `https://risehnhew.github.io/simplepdfreader/support.html`
 
 ## 2. Configure Signing
 

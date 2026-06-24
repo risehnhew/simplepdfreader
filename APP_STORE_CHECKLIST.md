@@ -6,9 +6,9 @@
 - Category: Productivity or Utilities
 - App Store metadata: Start from `AppStore/APP_STORE_METADATA.md`.
 - Age rating notes: No user-generated public content, no web access, no ads, no purchases, no explicit content.
-- Privacy policy: Required. Publish `docs/privacy.html` at a stable URL.
-- Support URL: Required. Publish `docs/support.html` at a stable URL.
-- Support email: Create or choose a mailbox you control, then update the app and support page.
+- Privacy policy: `https://risehnhew.github.io/simplepdfreader/privacy.html`
+- Support URL: `https://risehnhew.github.io/simplepdfreader/support.html`
+- Support email: `Iam.wei.he@gmail.com`
 - Screenshots: Required for target iPhone sizes; iPad screenshots recommended because the app supports iPad.
 - App icon: Required. A 1024x1024 production-style icon is included; replace later only if you want custom branding.
 - TestFlight testing: Required before production release.

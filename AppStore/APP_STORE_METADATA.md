@@ -32,15 +32,11 @@ pdf,reader,document,files,bookmark,search,library,private,offline,productivity
 
 ## Support URL
 
-Publish `docs/support.html`, then use the public URL here.
-
-Suggested GitHub Pages URL format: `https://<your-github-username>.github.io/simplepdfreader/support.html`
+`https://risehnhew.github.io/simplepdfreader/support.html`
 
 ## Privacy Policy URL
 
-Publish `docs/privacy.html`, then use the public URL here.
-
-Suggested GitHub Pages URL format: `https://<your-github-username>.github.io/simplepdfreader/privacy.html`
+`https://risehnhew.github.io/simplepdfreader/privacy.html`
 
 ## Marketing URL
 
@@ -81,8 +77,8 @@ The app does not implement custom encryption and does not use network communicat
 
 - Register `com.weihe.simplepdfreader` in your Apple Developer account.
 - Xcode has a local wildcard provisioning profile for Team ID `8777RK2R8M`, but no app-specific bundle ID was found locally.
-- Replace the in-app support email with a mailbox you control.
-- Publish `docs/privacy.html` at a stable public URL.
-- Publish `docs/support.html` at a stable public URL.
+- Support email: `Iam.wei.he@gmail.com`
+- Privacy policy URL: `https://risehnhew.github.io/simplepdfreader/privacy.html`
+- Support URL: `https://risehnhew.github.io/simplepdfreader/support.html`
 - Create required screenshots for App Store Connect.
 - Sign the archive with your Apple Developer team.
