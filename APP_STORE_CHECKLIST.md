@@ -1,7 +1,7 @@
 # App Store Submission Checklist
 
 - App name: SimplePDF Reader
-- Bundle identifier: `com.weihe.simplepdfreader`; register this in Apple Developer before release.
+- Bundle identifier: `com.weihe.simplepdfreader`; Xcode has created the explicit App ID and App Store provisioning profile.
 - Apple Developer Team found locally: `Wei He` (`8777RK2R8M`).
 - Category: Productivity or Utilities
 - App Store metadata: Start from `AppStore/APP_STORE_METADATA.md`.
@@ -9,7 +9,7 @@
 - Privacy policy: `https://risehnhew.github.io/simplepdfreader/privacy.html`
 - Support URL: `https://risehnhew.github.io/simplepdfreader/support.html`
 - Support email: `Iam.wei.he@gmail.com`
-- Screenshots: Required for target iPhone sizes; iPad screenshots recommended because the app supports iPad.
+- Screenshots: iPhone and iPad screenshots are available in `AppStore/screenshots/`.
 - App icon: Required. A 1024x1024 production-style icon is included; replace later only if you want custom branding.
 - TestFlight testing: Required before production release.
 - Privacy nutrition label: Declare no tracking and no data collection if the app remains local-only.

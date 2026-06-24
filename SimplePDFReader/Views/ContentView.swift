@@ -1,6 +1,9 @@
+import SwiftData
 import SwiftUI
 
 struct ContentView: View {
+    @Environment(\.modelContext) private var modelContext
+
     var body: some View {
         TabView {
             LibraryView()
@@ -12,6 +15,11 @@ struct ContentView: View {
                 .tabItem {
                     Label("Settings", systemImage: "gearshape")
                 }
+        }
+        .task {
+            #if DEBUG
+            ScreenshotSeedService.seedIfRequested(modelContext: modelContext)
+            #endif
         }
     }
 }

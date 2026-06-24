@@ -73,12 +73,19 @@ Use these answers only if the app remains as implemented in v1:
 
 The app does not implement custom encryption and does not use network communication. Confirm final export-compliance answers in App Store Connect based on the exact release build and Apple’s current questionnaire.
 
-## What Must Be Final Before Submission
+## Current App Store Readiness
 
-- Register `com.weihe.simplepdfreader` in your Apple Developer account.
-- Xcode has a local wildcard provisioning profile for Team ID `8777RK2R8M`, but no app-specific bundle ID was found locally.
+- Bundle ID/App ID: `com.weihe.simplepdfreader`
+- Apple Developer Team: `Wei He` (`8777RK2R8M`)
+- App Store provisioning profile: created by Xcode for `com.weihe.simplepdfreader`
 - Support email: `Iam.wei.he@gmail.com`
 - Privacy policy URL: `https://risehnhew.github.io/simplepdfreader/privacy.html`
 - Support URL: `https://risehnhew.github.io/simplepdfreader/support.html`
-- Create required screenshots for App Store Connect.
-- Sign the archive with your Apple Developer team.
+- iPhone screenshots: `AppStore/screenshots/iphone-01-library.png`, `iphone-02-reader.png`, `iphone-03-settings.png`
+- iPad screenshots: `AppStore/screenshots/ipad-01-library.png`, `ipad-02-reader.png`, `ipad-03-settings.png`
+
+## Remaining Before Upload
+
+- Create the App Store Connect app record for `com.weihe.simplepdfreader`.
+- Upload the archive from Xcode Organizer after approving any keychain prompt for the Apple Distribution certificate.
+- Complete App Privacy, Age Rating, Pricing/Availability, Export Compliance, and Review Contact sections in App Store Connect.

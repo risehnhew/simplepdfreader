@@ -19,6 +19,7 @@
 		7B56133DF457FBC9240B7B14 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DE8CCC8DF4C05DB57E3FBE /* ContentView.swift */; };
 		8C56D4558A840C22BBBCF118 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C712EF90065683D01400BC5 /* SettingsView.swift */; };
 		982F7EB401B575EB120F2BFE /* SimplePDFReaderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C42FB7D0A3D584E6E1431E /* SimplePDFReaderApp.swift */; };
+		98700AFD2A3D390BA42336E2 /* ScreenshotSeedService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACCECD103A4837ED183AE7B /* ScreenshotSeedService.swift */; };
 		A2319CBDC09F5777A06F19B1 /* PDFKitRepresentedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3A559E6089633CAC956FFC /* PDFKitRepresentedView.swift */; };
 		A4510057B1F74BFF7392A7AA /* PDFItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920CB73CCFB9623FC5C1B78D /* PDFItemRow.swift */; };
 		B57461D09153A37EA51DE4FB /* DocumentInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB07CFD7F0FA6056240ECD6 /* DocumentInfoView.swift */; };
@@ -53,6 +54,7 @@
 		45A6A7AD2302E68E8169451D /* SimplePDFReaderTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = SimplePDFReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A073523DFE3563C4B7D2387 /* PDFFileStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFFileStore.swift; sourceTree = "<group>"; };
 		4F9B5C24E6671CB9C0C9D5C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		5ACCECD103A4837ED183AE7B /* ScreenshotSeedService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenshotSeedService.swift; sourceTree = "<group>"; };
 		6AF4B7222B71F32860593907 /* PDFItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFItem.swift; sourceTree = "<group>"; };
 		6DB07CFD7F0FA6056240ECD6 /* DocumentInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentInfoView.swift; sourceTree = "<group>"; };
 		6DEB93CE68A26C7F5662CD32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
@@ -186,6 +188,7 @@
 			isa = PBXGroup;
 			children = (
 				4A073523DFE3563C4B7D2387 /* PDFFileStore.swift */,
+				5ACCECD103A4837ED183AE7B /* ScreenshotSeedService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -329,6 +332,7 @@
 				A2319CBDC09F5777A06F19B1 /* PDFKitRepresentedView.swift in Sources */,
 				769CE3A725ACCEEA67253444 /* PDFReaderView.swift in Sources */,
 				6BE5ED9F272935F7A888D4F4 /* PDFSearchView.swift in Sources */,
+				98700AFD2A3D390BA42336E2 /* ScreenshotSeedService.swift in Sources */,
 				8C56D4558A840C22BBBCF118 /* SettingsView.swift in Sources */,
 				982F7EB401B575EB120F2BFE /* SimplePDFReaderApp.swift in Sources */,
 			);

@@ -4,11 +4,18 @@ These steps assume you have an active Apple Developer Program membership and acc
 
 ## 1. Create App Store Connect Records
 
-1. Create/register bundle identifier `com.weihe.simplepdfreader` in Apple Developer.
-2. If Apple rejects that identifier, choose a different reverse-DNS identifier and update `PRODUCT_BUNDLE_IDENTIFIER` in `project.yml`.
-3. Run `xcodegen generate`.
-4. Create a new app in App Store Connect using the same bundle identifier.
-5. Add the app name, category, age rating, support URL, privacy policy URL, screenshots, and metadata from `AppStore/APP_STORE_METADATA.md`.
+Xcode has already created the explicit Bundle ID/App ID and an App Store provisioning profile for `com.weihe.simplepdfreader` under Team ID `8777RK2R8M`.
+
+Create a new app in App Store Connect using:
+
+- Platform: iOS
+- Name: `SimplePDF Reader`
+- Primary language: English (U.S.)
+- Bundle ID: `com.weihe.simplepdfreader`
+- SKU: `simplepdf-reader-ios`
+- User access: Full Access
+
+After the app record exists, add the category, age rating, support URL, privacy policy URL, screenshots, and metadata from `AppStore/APP_STORE_METADATA.md`.
 
 ### Apple Developer Bundle ID Path
 
@@ -38,6 +45,8 @@ After GitHub Pages is live, use:
 
 - Privacy Policy URL: `https://risehnhew.github.io/simplepdfreader/privacy.html`
 - Support URL: `https://risehnhew.github.io/simplepdfreader/support.html`
+
+These pages are already live on GitHub Pages.
 
 ## 2. Configure Signing
 
@@ -77,6 +86,8 @@ xcodebuild -project SimplePDFReader.xcodeproj \
 ```
 
 Upload through Xcode Organizer or Apple’s current upload tool.
+
+If command-line export stalls at `codesign`, approve the local macOS Keychain prompt for the Apple Distribution certificate or use Xcode Organizer, which surfaces the same approval flow in the UI.
 
 ## 5. TestFlight
 
